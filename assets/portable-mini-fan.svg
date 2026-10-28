@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="854" viewBox="0 0 700 854" fill="none">
+  <title>Portable mini fan</title>
+  <defs>
+    <linearGradient id="bg" x2="700" y2="854" gradientUnits="userSpaceOnUse"><stop stop-color="#e8e5d9"/><stop offset="1" stop-color="#c9cabc"/></linearGradient>
+    <linearGradient id="body" x1="280" y1="400" x2="420" y2="680" gradientUnits="userSpaceOnUse"><stop stop-color="#b2bea1"/><stop offset=".5" stop-color="#899a78"/><stop offset="1" stop-color="#6e805e"/></linearGradient>
+    <radialGradient id="face"><stop stop-color="#bac5ac"/><stop offset="1" stop-color="#728563"/></radialGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="18"/></filter>
+    <clipPath id="grille"><circle cx="350" cy="315" r="151"/></clipPath>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h700v854H0z"/>
+  <ellipse cx="369" cy="723" rx="151" ry="24" fill="#555e42" opacity=".2" filter="url(#shadow)"/>
+  <rect x="305" y="428" width="90" height="268" rx="42" fill="url(#body)"/>
+  <rect x="315" y="485" width="6" height="159" rx="3" fill="#d9e0cc" opacity=".35"/>
+  <ellipse cx="350" cy="695" rx="45" ry="11" fill="#6e805e"/>
+  <circle cx="350" cy="315" r="177" fill="#7b8b6b"/>
+  <circle cx="346" cy="309" r="174" fill="url(#body)"/>
+  <circle cx="350" cy="315" r="155" fill="#4e6045"/>
+  <circle cx="350" cy="315" r="149" fill="url(#face)"/>
+  <g fill="#d9e0cc" opacity=".78">
+    <path id="blade" d="M346 309c-66-36-83-111-27-120 48-8 88 61 49 120z"/>
+    <use href="#blade" transform="rotate(120 350 315)"/>
+    <use href="#blade" transform="rotate(240 350 315)"/>
+  </g>
+  <g clip-path="url(#grille)" stroke="#aabb99" stroke-width="4">
+    <path d="M190 180v270m16-290v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310m16-310v310"/>
+    <path d="M190 253h320M190 377h320" stroke-width="3"/>
+  </g>
+  <circle cx="350" cy="315" r="28" fill="#8e9f7d" stroke="#bac6a9" stroke-width="3"/>
+  <circle cx="350" cy="535" r="13" fill="#738563" stroke="#bec9af" stroke-width="2"/>
+  <path d="M350 528v7m-5-5a7 7 0 1 0 10 0" stroke="#e5e9db" stroke-width="1.5" stroke-linecap="round"/>
+  <circle cx="350" cy="568" r="2.5" fill="#dce6ca"/>
+  <path d="M225 212a160 160 0 0 1 202-42" stroke="#e1e6d5" stroke-width="4" stroke-linecap="round" opacity=".45"/>
+</svg>
